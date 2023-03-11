@@ -1,14 +1,27 @@
 import React from 'react'
+import Typewriter from 'typewriter-effect';
+import pfp from './Capture.PNG';
 
 const Header = () => {
   return (
     <header>
       <div className='container self'>
-        <pre>
-          <span className='cyan'>&lt;b&gt;HELLO&lt;/b&gt;</span><br/>
-          
+        <pre className=''>
+          <span className='cyan'>
+            &lt;b&gt;
+            <Typewriter options={{
+              loop:true,
+              delay:120,
+              autoStart:true,
+              strings:[' Hello',' samyak',' Hi'],
+              }}
+            />
+            &lt;/b&gt;
+          </span>
+          <br/>
+          MySelf Samyak kr Sharma       
         </pre>
-        <img src='#' alt='hello guys'></img>
+        <img src={pfp} alt='hello guys'></img>
       </div>
     </header>
   )

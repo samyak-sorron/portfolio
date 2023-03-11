@@ -16,10 +16,12 @@ header{
 .self{
   display: flex;
   justify-content: center;
-  align-items: center;
+  position: absolute;
 }
+
 .cyan{
   color:cyan;
+  display: flex;
 }
 /* 
 @media (prefers-reduced-motion: no-preference) {
