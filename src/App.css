@@ -16,13 +16,31 @@ header{
 .self{
   display: flex;
   justify-content: center;
-  position: absolute;
 }
 
 .cyan{
   color:cyan;
   display: flex;
 }
+.pfp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero{
+  max-width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  
+}
+
 /* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
