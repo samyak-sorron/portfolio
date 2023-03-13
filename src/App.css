@@ -16,6 +16,7 @@ header{
 .self{
   display: flex;
   justify-content: center;
+  padding-bottom:7vh;
 }
 
 .cyan{
@@ -30,15 +31,19 @@ header{
 .intro{
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+.disp{
 }
 
 .hero{
-  max-width: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
   
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.desk{
+  max-width: 100vh;
+  margin-bottom: -1px;
 }
 
 /* 

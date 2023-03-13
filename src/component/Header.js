@@ -7,29 +7,34 @@ const Header = () => {
   return (
     <header>
       <div className='container'>
-        <div className='self'>
+        <div className='self mt-5'>
           <div className='col-6 intro'>
-            <pre className=''>
+            <pre className='disp'>
+              <span className='cyan'>&lt;b&gt; Hello &lt;/b&gt;</span>
+              <br/>
+              <h3>I am </h3>
+              <h2 className='cyan'>Samyak kr Sharma</h2>
+              <br/>
+              <h3>I am a </h3>
               <span className='cyan'>
-                &lt;b&gt;
                 <Typewriter options={{
                   loop:true,
                   delay:120,
                   autoStart:true,
-                  strings:[' Hello',' samyak',' Hi'],
+                  strings:['Student','Full Stack Web Developer', 'Programmer', 'Problem Solver','Computer Science Student'],
                   }}
                 />
-                &lt;/b&gt;
               </span>
-              <br/>
-              <h3>Myself Samyak kr Sharma</h3>      
+                   
             </pre>
           </div>
           <div className='col-6 pfp'>
             <img src={pfp} alt='profile'/>
           </div>
         </div>
-        <img src={hero} className='hero' alt='desktop'/>
+        <div className='hero'>
+          <img className='desk' src={hero} alt='desktop'/>
+        </div>
       </div>
     </header>
   )
