@@ -1,50 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.App{
+*{
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  font-size: 40px;
+  font-size: 1.5rem;
+}
+
+.description{
+  color: rgb(97, 6, 200);
+}
+
+.bg-my{
+  background-color: #252525;
 }
 
 header{
   background-color: #252525;
-  height: 100vh;
-  color: #ffffff;  
-  display: flex;
-  align-items: center;
-}
-.self{
-  display: flex;
-  justify-content: center;
-  padding-bottom:7vh;
+  color: #ffffff; 
 }
 
-.cyan{
-  color:cyan;
-  display: flex;
-}
-.pfp{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.intro{
-  display: flex;
-  align-items: center;
-}
-.disp{
-}
-
-.hero{
-  
-  display: flex;
-  align-items: center;
-  justify-content:center;
-}
-.desk{
-  max-width: 100vh;
-  margin-bottom: -1px;
-}
 
 /* 
 @media (prefers-reduced-motion: no-preference) {
@@ -60,4 +34,4 @@ header{
   to {
     transform: rotate(360deg);
   }
-} */
+} */ 
