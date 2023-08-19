@@ -5,14 +5,14 @@ import hero from './hero-devices.svg'
 
 const Header = () => {
   return (
-    <header>
-      <div className='d-block'style={{"height":"100vh"}}>
+    <header style={{"height":"100vh"}}>
+      <div className='d-block'>
         <div className='d-sm-flex justify-content-evenly d-block'>
           <div className='d-inline' style={{"width":"55vh"}}>
-            <pre className=''>
+            <pre className='mt-3'>
               <span className='text-info'>&lt;b&gt; Hello &lt;/b&gt;</span>
               <br/>
-              <h3>I am </h3>
+              <h3>My Self </h3>
               <h2 className='text-info'>Samyak kr Sharma</h2>
               <br/>
               <h3>I am a </h3>
@@ -27,12 +27,12 @@ const Header = () => {
               </span>                   
             </pre>
           </div>
-          <div className=''>
+          <div className='mt-3 d-none d-sm-inline'>
             <img src={pfp} alt='profile' style={{"max-width":"50vh"}}/>
           </div>
         </div>
-        <div className=''>
-          <img className='d-sm-flex align-items-end justify-content-center d-none' src={hero} alt='desktop' style={{"width":"100vh"}}/>
+        <div className='row justify-content-center'>
+          <img className='position-absolute bottom-0 text-center' src={hero} alt='desktop' style={{"width":"55vw"}}/>
         </div>
       </div>
     </header>
