@@ -12,9 +12,9 @@ const Skills = () => {
           
           <p className="mt-3 fs-5 text-center ">I enjoy diving into and learning new things. Here's a list of technologies I've worked with :</p>
         </div>
-        <div className="row mb-5 ">
+        <div className="row mb-5 attribute">
           <div className="col-md-3">
-            <p className="shadow-lg fs-5 rounded text-success bg-black">HTML</p>
+            <p className="shadow-lg fs-5 rounded text-success bg-black ">HTML</p>
           </div>
           <div className="col-md-3">
             <p className="shadow-lg fs-5 rounded text-success bg-black">CSS</p>

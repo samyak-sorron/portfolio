@@ -28,7 +28,7 @@ const Header = () => {
             </pre>
           </div>
           <div className='mt-3 d-none d-sm-inline'>
-            <img src={pfp} alt='profile' style={{"max-width":"50vh"}}/>
+            <img src={pfp} alt='profile' style={{"maxWidth":"50vh"}}/>
           </div>
         </div>
         <div className='row justify-content-center'>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Desctiption() {
   return (
-    <div className="d-flex text-center align-items-center justify-content-center mt-4" style={{ "min-height": "50vh",}}>
+    <div className="d-flex text-center align-items-center justify-content-center mt-4" style={{ "minHeight": "50vh",}}>
       <div className="">
         <div className="container fs-6">
           <h3 className="mb-2 text-break">
