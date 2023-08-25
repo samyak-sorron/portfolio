@@ -21,7 +21,7 @@ const Sidebar = () => {
             <a className='text-danger text-opacity-75' href="mailto:samyak.sharma.758@gmail.com" title="mail"><HiOutlineMail size={40}/></a>
           </li>
           <li>
-            <a className='text-opacity-75' href="https://drive.google.com/drive/my-drive?q=owner:me%20parent:0AEB83Er_dhWTUk9PVA%20after:2023-07-16" title="resume"><BsFillPersonLinesFill size={40}/></a>
+            <a className='text-opacity-75' href="https://drive.google.com/file/d/1QmolzCNq_7wqSTdG-n2VLllM93RJ5cg7/view?usp=sharing" title="resume"><BsFillPersonLinesFill size={40}/></a>
           </li>
           
           {/* Add more social handles here */}
