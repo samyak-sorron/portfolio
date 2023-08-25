@@ -1,6 +1,6 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
-import pfp from './Capture.PNG';
+import pfp from './1.jpg';
 import hero from './hero-devices.svg'
 
 const Header = () => {
@@ -28,7 +28,7 @@ const Header = () => {
             </pre>
           </div>
           <div className='mt-3 d-none d-sm-inline'>
-            <img src={pfp} alt='profile' style={{"maxWidth":"50vh"}}/>
+            <img src={pfp} alt='profile' style={{"maxWidth":"50vh", maxHeight:"50vh"}}/>
           </div>
         </div>
         <div className='row justify-content-center'>
