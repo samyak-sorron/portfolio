@@ -6,17 +6,20 @@ import hero from './hero-devices.svg'
 const Header = () => {
   return (
     <header style={{"height":"100vh"}}>
+      <nav className='p-3'>
+        Samyak
+      </nav>
       <div className='d-block'>
         <div className='d-sm-flex justify-content-evenly d-block'>
           <div className='d-inline' style={{"width":"55vh"}}>
             <pre className='mt-3'>
-              <span className='text-info'>&lt;b&gt; Hello &lt;/b&gt;</span>
+              <span className='description'>&lt;b&gt; Hello &lt;/b&gt;</span>
               <br/>
               <h3>My Self </h3>
-              <h2 className='text-info'>Samyak kr Sharma</h2>
+              <h2 className='description'>Samyak kr Sharma</h2>
               <br/>
               <h3>I am a </h3>
-              <span className='text-info'>
+              <span className='description'>
                 <Typewriter options={{
                   loop:true,
                   delay:120,

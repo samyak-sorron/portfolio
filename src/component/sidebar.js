@@ -10,7 +10,7 @@ const Sidebar = () => {
       {/* Sidebar Content */}
       <div className="">
         {/* Social Handles */}
-        <ul className="list-unstyled ">
+        <ul className="list-unstyled">
           <li>
             <a className='text-primary text-opacity-75' href="https://www.linkedin.com/in/samyak-sharma-9130ab1bb" title='LinkedIn'><FaLinkedin size={40}/></a>
           </li>

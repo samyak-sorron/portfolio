@@ -3,26 +3,97 @@
 *{
   font-family: 'Poppins', sans-serif;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  scroll-behavior: smooth;
 }
 
 .description{
   color: rgb(97, 6, 200);
-  font-size: 2rem;
+  /* font-size: 1.4rem; */
 }
 
 .bg-my{
-  background-color: #252525;
+  background-color: black;
 }
 
 header{
-  background-color: #252525;
+  /* background-color: #252525; */
   color: #ffffff;
 }
 
 .advance:hover{
   transform: translate3d(0,-0.125rem,0);
 }
+
+/* Base container style */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Fixed-width container with different breakpoints */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Full-width container */
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Custom styles for different container variants */
+.container-primary {
+  background-color: rgb(97, 6, 200);
+  color: white;
+  border-radius: 5px;
+}
+
+.container-secondary {
+  background-color: #6c757d;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Additional customization */
+.container-padding-lg {
+  padding: 30px;
+}
+
+.container-margin-top-lg {
+  margin-top: 30px;
+}
+
+.container-rounded {
+  border-radius: 10px;
+}
+
 
 
 /* 
