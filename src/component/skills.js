@@ -11,7 +11,7 @@ import { DiMysql } from "react-icons/di";
 
 const Skills = () => {
   return (
-    <div name="skills" className="mx-5 text-white d-flex justify-content-center">
+    <div name="skills" className="mx-md-5 text-white d-flex justify-content-center">
       {/* Container */}
       <div className="text-center mt-5">
         <span className="d-inline-flex font-weight-semibold border-bottom border-3 border-primary">Skills</span>
@@ -20,7 +20,7 @@ const Skills = () => {
           
           <p className="mt-3 fs-5 text-center ">I enjoy diving into and learning new things. Here's a list of technologies I've worked with :</p>
         </div>
-        <div className="row mb-5 gap-5 ms-5">
+        <div className="row mb-5 gap-5 ms-md-5">
           <div className="col-md-3 description"><FaPython className='fs-1'/> Python
           </div>
           <div className="col-md-3 description"><TbBrandCpp className='fs-1'/>

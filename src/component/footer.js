@@ -20,7 +20,7 @@ const Footer = () => {
             <li><a href="" className='text-light'><SiCodechef/></a></li>
         </ul>
         <p className='text-light d-flex justify-content-center fs-6'> Living Learning and Upgrading</p>
-        <i className='text-light d-flex justify-content-end fs-6'> @ 2023 Samyak Kr Sharma</i>
+        <i className='text-light d-flex justify-content-end fs-6'> @ 2024 Samyak Kr Sharma</i>
     </div>
   )
 }
